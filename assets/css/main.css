@@ -2700,6 +2700,98 @@ input, select, textarea {
 				padding-top: 0;
 			}
 
+/* HeaderSmall */
+
+#headersmall {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-moz-align-items: -moz-flex-end;
+	-webkit-align-items: -webkit-flex-end;
+	-ms-align-items: -ms-flex-end;
+	align-items: flex-end;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	background-color: #1f1815;
+	background-attachment: scroll,								scroll;
+	background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+	background-position: top left,							top left;
+	background-repeat: repeat,								no-repeat;
+	background-size: auto,								150%;
+	color: rgba(255, 255, 255, 0.5);
+	height: 100%;
+	left: 0;
+	padding: 8em 4em;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	width: 20%;
+}
+
+	#headersmall > * {
+		-moz-flex-shrink: 0;
+		-webkit-flex-shrink: 0;
+		-ms-flex-shrink: 0;
+		flex-shrink: 0;
+		width: 100%;
+	}
+
+	#headersmall > .inner {
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		margin: 0 0 2em 0;
+	}
+
+	#headersmall strong, #header b {
+		color: #ffffff;
+	}
+
+	#headersmall h2, #headersmall h3, #headersmall h4, #headersmall h5, #headersmall h6 {
+		color: #ffffff;
+	}
+
+	#headersmall h1 {
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 1.35em;
+		line-height: 1.75em;
+		margin: 0;
+	}
+
+	#headersmall .image.avatar {
+		margin: 0 0 1em 0;
+		width: 6.25em;
+	}
+
+/* MainWide */
+
+#mainwide {
+	margin-left: 20%;
+	max-width: 67em;
+	padding: 8em 4em 4em 4em;
+	width: calc(100% - 20%);
+}
+
+	#mainwide > section {
+		border-top: solid 2px #efefef;
+		margin: 4em 0 0 0;
+		padding: 4em 0 0 0;
+	}
+
+		#mainwide > section:first-child {
+			border-top: 0;
+			margin-top: 0;
+			padding-top: 0;
+		}
+
 /* Poptrox */
 
 	@-moz-keyframes spin {
@@ -3012,6 +3104,25 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
+		
+		/* Headersmall */
+
+		#headersmall {
+			padding: 6em 3em 3em 3em;
+			width: 30%;
+		}
+
+			#headersmall h1 {
+				font-size: 1.25em;
+			}
+
+				#headersmall h1 br {
+					display: none;
+				}
+
+			#headersmall > .inner {
+				margin-bottom: 0;
+			}
 
 		/* Footer */
 
@@ -3031,6 +3142,15 @@ input, select, textarea {
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
+		
+		/* Mainwide */
+
+		#mainwide {
+			margin-left: 30%;
+			max-width: none;
+			padding: 6em 3em 3em 3em;
+			width: calc(100% - 30%);
+		}
 
 	}
 
@@ -3073,6 +3193,29 @@ input, select, textarea {
 						display: inline;
 					}
 
+		/* Headersmall */
+
+		#headersmall {
+			background-attachment: scroll;
+			background-position: top left, center center;
+			background-size: auto,		cover;
+			left: auto;
+			padding: 2em 4em;
+			position: relative;
+			text-align: center;
+			top: auto;
+			width: 100%;
+			display: block;
+		}
+
+			#headersmall h1 {
+				font-size: 1.75em;
+			}
+
+				#headersmall h1 br {
+					display: inline;
+				}		
+
 		/* Footer */
 
 			#footer {
@@ -3109,6 +3252,14 @@ input, select, textarea {
 		/* Main */
 
 			#main {
+				margin: 0;
+				padding: 6em 4em;
+				width: 100%;
+			}
+
+		/* Mainwide */
+
+			#mainwide {
 				margin: 0;
 				padding: 6em 4em;
 				width: 100%;
@@ -3164,6 +3315,16 @@ input, select, textarea {
 					font-size: 1.35em;
 				}
 
+		/* Headersmall */
+
+			#headersmall {
+				padding: 1em 1.5em;
+			}
+
+				#headersmall h1 {
+					font-size: 1.35em;
+				}
+
 		/* Footer */
 
 			#footer {
@@ -3180,6 +3341,18 @@ input, select, textarea {
 					margin: 2.25em 0 0 0;
 					padding: 2.25em 0 0 0;
 				}
+
+		/* Mainwide */
+
+		#mainwide {
+			padding: 2.25em 1.5em 0.25em 1.5em;
+		}
+
+			#mainwide > section {
+				margin: 2.25em 0 0 0;
+				padding: 2.25em 0 0 0;
+			}
+
 
 		/* Poptrox */
 
@@ -3207,6 +3380,16 @@ input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
+
+		/* Headersmall */
+
+		#headersmall {
+			padding: 1.5em 1.5em;
+		}
+
+			#headersmall h1 br {
+				display: none;
+			}
 
 		/* Footer */
 
