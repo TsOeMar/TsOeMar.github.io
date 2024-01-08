@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 
 /*
 	Strata by HTML5 UP
@@ -3402,3 +3403,77 @@ input, select, textarea {
 			}
 
 	}
+
+	/*--------------------------------
+		Timeline
+	--------------------------------*/
+	.design-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #ffffff;
+		min-height: 100vh;
+		padding: 100px 0;
+	  }
+	  
+	  .design {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
+	  
+	  .timeline {
+		width: 100%;
+		height: auto;
+		max-width: 800px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+	  }
+	  
+	  .timeline-content {
+		padding: 200px;
+		background: #ffffff;
+/*		-webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+				box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;*/
+		border: 1px solid black; /* Add this line to set the black border */
+		border-radius: 7px;
+		padding: 2rem;
+		transition: 0.4s ease;
+		overflow-wrap: break-word !important; 
+		margin: 1rem;
+/*		margin-bottom: 1px; 
+		border-radius: 6px; */
+	  }
+	  
+	  .timeline-component {
+		margin: 0px 20px 20px 20px;
+	  }
+	  
+	  @media screen and (min-width: 768px) {
+		.timeline {
+		  display: grid;
+		  grid-template-columns: 1fr 3px 1fr;
+		}
+		.timeline-middle {
+		  position: relative;
+		  background-image: linear-gradient(45deg, #000000, #4e4e4e, #9c9c9c);
+		  width: 3px;
+		  height: 100%;
+		}
+		.main-middle {
+		  opacity: 0;
+		}
+		.timeline-circle {
+		  position: absolute;
+		  top: 0;
+		  left: 50%;
+		  width: 15px;
+		  height: 15px;
+		  border-radius: 50%;
+		  background-image: linear-gradient(45deg, #000000, #4e4e4e, #9c9c9c);
+		  -webkit-transform: translateX(-50%);
+				  transform: translateX(-50%);
+		}
+	  }
