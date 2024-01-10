@@ -1913,7 +1913,7 @@ input, select, textarea {
 		margin-bottom: 0.75rem; 
 		font-size: 0.75rem; 
 		font-weight: 600; 
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		color: #49bf9d; 
 		background-color: #ccfbf1; 
 		border-radius: 9999px; 
