@@ -2002,7 +2002,6 @@ input, select, textarea {
 		-ms-appearance: none;
 		appearance: none;
 		background: #efefef;
-		background-color: #;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -2705,7 +2704,6 @@ input, select, textarea {
 			background-color: #49bf9d;
 			border-color: #49bf9d;
 			color: #fff !important;
-			background-color: ;
 		}
 
 			input[type="submit"].primary:hover,
