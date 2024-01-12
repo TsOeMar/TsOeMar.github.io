@@ -1928,8 +1928,7 @@ input, select, textarea {
 	}
 
 	/*Timeline Bold Title*/
-	.tl-boldtitle {
-		font: inherit;		
+	.tl-boldtitle {		
 		font-size: 1.25rem;
 		font-weight: 700; 
 		color: #787878; 
@@ -2785,7 +2784,7 @@ input, select, textarea {
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
-		position: fixed;
+		position:fixed;
 		text-align: right;
 		top: 0;
 		width: 35%;
