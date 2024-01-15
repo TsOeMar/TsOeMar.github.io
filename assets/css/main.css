@@ -1779,13 +1779,19 @@ input, select, textarea {
 	}
 
 	/*Colored label*/
-	.tl-colortitle {
+	.tl-colortitle-work {
 		/*font-family: 'Fredoka One', cursive; */
 		font-size: 1.25rem;
 		color: #49bf9d;
-		/*color: #b2b2b2;*/
 		margin-bottom: 0.25rem;
 	}
+
+	.tl-colortitle-study {
+		/*font-family: 'Fredoka One', cursive; */
+		font-size: 1.25rem;
+		color: #9d49bf;
+		margin-bottom: 0.25rem;
+	}	
 
 	@media (min-width: 640px) {
 		.colortitle {
@@ -1909,7 +1915,7 @@ input, select, textarea {
 	
 
 	/*Timeline Date left side*/
-	.tl-date {
+	.tl-date-work {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
@@ -1919,8 +1925,31 @@ input, select, textarea {
 		font-size: 0.85rem; 
 		font-weight: 600; 
 		/*text-transform: uppercase;*/
-		color: #49bf9d; 
+		color: #3eb08f; 
 		background-color: #ccfbf1; 
+		border-radius: 9999px; 
+		transform: translateY(0.125rem); 
+	
+		/* Small and Up */
+		@media (min-width: 640px) {
+			position: absolute; 
+			left: 0;
+			margin-bottom: 0; 
+		}
+	}
+
+	.tl-date-study {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 5rem; 
+		height: 1.5rem; 
+		margin-bottom: 0.75rem; 
+		font-size: 0.85rem; 
+		font-weight: 600; 
+		/*text-transform: uppercase;*/
+		color: #9d49bf; 
+		background-color: #ecddf3; 
 		border-radius: 9999px; 
 		transform: translateY(0.125rem); 
 	
