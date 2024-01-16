@@ -1,6 +1,5 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
-@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
 
 
 /*
@@ -132,7 +131,7 @@ input, select, textarea {
 	em, i {
 		font-style: italic;
 	}
-
+ 
 	p {
 		margin: 0 0 2em 0;
 	}
@@ -1782,15 +1781,15 @@ input, select, textarea {
 
 	/*Colored label*/
 	.tl-colortitle-work {
-		font-family: 'Lemonada', cursive;
-		font-size: 1.25rem;
+		font-style: italic;
+		font-size: 1.5rem;
 		color: #49bf9d;
 	}
 
 	.tl-colortitle-study {
-		font-family: 'Lemonada', cursive;
-		font-size: 1.25rem;
-		color: #a16d68;
+		font-style: italic;
+		font-size: 1.5rem;
+		color: #a68d8d;
 	}	
 
 	@media (min-width: 640px) {
@@ -1919,11 +1918,10 @@ input, select, textarea {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		font-family: 'Lemonada', cursive;
 		width: 6rem; 
 		height: 1.5rem; 
 		margin-bottom: 1rem; 
-		font-size: 0.8rem; 
+		font-size: 0.9rem; 
 		font-weight: 600; 
 		color: #3eb08f; 
 		background-color: #ccfbf1; 
@@ -1942,16 +1940,13 @@ input, select, textarea {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		font-family: 'Lemonada', cursive;
 		width: 6rem; 
 		height: 1.5rem; 
 		margin-bottom: 1rem; 
-		font-size: 0.8rem; 
+		font-size: 0.9rem; 
 		font-weight: 600; 
-		/*color: #9d49bf;
-		background-color: #ecddf3;*/
-		color: #a77c75;
-		background-color: #eadfde; 
+		color: #a68d8d;
+		background-color: #ebe6e6; 
 		border-radius: 9999px; 
 		transform: translateY(0.125rem); 
 	
