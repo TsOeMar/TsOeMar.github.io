@@ -1918,7 +1918,8 @@ input, select, textarea {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 6rem; 
+		font-style: italic;
+		width: 5rem; 
 		height: 1.5rem; 
 		margin-bottom: 1rem; 
 		font-size: 0.9rem; 
@@ -1940,7 +1941,8 @@ input, select, textarea {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 6rem; 
+		font-style: italic;
+		width: 5rem; 
 		height: 1.5rem; 
 		margin-bottom: 1rem; 
 		font-size: 0.9rem; 
