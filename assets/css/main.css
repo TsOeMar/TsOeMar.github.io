@@ -1790,7 +1790,6 @@ input, select, textarea {
 	.tl-colortitle-study {
 		font-family: 'Lemonada', cursive;
 		font-size: 1.25rem;
-		/*color: #9d49bf;*/
 		color: #a16d68;
 	}	
 
@@ -1839,7 +1838,7 @@ input, select, textarea {
 		width: 0.5rem;
 		height: 0.5rem;
 		background-color: #787878; 
-		border: 4px solid #b2b2b2; 
+		border: 4px solid #787878; 
 		box-sizing: border-box;
 		border-radius: 50%;
 		transform: translateX(-50%) translateY(0.375rem);
@@ -1862,10 +1861,10 @@ input, select, textarea {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		margin-bottom: 0rem; /* mb-1 */
+		margin-bottom: 0rem; 
 	}
 	
-	@media (min-width: 640px) { /* sm: breakpoint */
+	@media (min-width: 640px) { 
 		.timeline-end {
 			flex-direction: row;
 		}
@@ -1897,7 +1896,7 @@ input, select, textarea {
 		width: 0.5rem; 
 		height: 0.5rem; 
 		background-color: #787878; 
-		border: 4px solid #49bf9d; 
+		border: 4px solid #787878; 
 		box-sizing: border-box;
 		border-radius: 9999px; 
 		transform: translateX(-50%) translateY(0.375rem); 
@@ -1920,12 +1919,12 @@ input, select, textarea {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 5rem; 
+		font-family: 'Lemonada', cursive;
+		width: 6rem; 
 		height: 1.5rem; 
-		margin-bottom: 0.75rem; 
-		font-size: 0.85rem; 
+		margin-bottom: 1rem; 
+		font-size: 0.8rem; 
 		font-weight: 600; 
-		/*text-transform: uppercase;*/
 		color: #3eb08f; 
 		background-color: #ccfbf1; 
 		border-radius: 9999px; 
@@ -1943,10 +1942,11 @@ input, select, textarea {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 5rem; 
+		font-family: 'Lemonada', cursive;
+		width: 6rem; 
 		height: 1.5rem; 
-		margin-bottom: 0.75rem; 
-		font-size: 0.85rem; 
+		margin-bottom: 1rem; 
+		font-size: 0.8rem; 
 		font-weight: 600; 
 		/*color: #9d49bf;
 		background-color: #ecddf3;*/
@@ -2824,7 +2824,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
-	}
+	} 
 
 		#header > * {
 			-moz-flex-shrink: 0;
