@@ -1791,7 +1791,8 @@ input, select, textarea {
 	.tl-colortitle-study {
 		font-family: 'caveat';
 		font-size: 1.5rem;
-		color: #9d49bf;
+		/*color: #9d49bf;*/
+		color: #a77c75;
 		margin-bottom: 0.25rem;
 	}	
 
@@ -1949,9 +1950,10 @@ input, select, textarea {
 		margin-bottom: 0.75rem; 
 		font-size: 0.85rem; 
 		font-weight: 600; 
-		/*text-transform: uppercase;*/
-		color: #9d49bf; 
-		background-color: #ecddf3; 
+		/*color: #9d49bf;
+		background-color: #ecddf3;*/
+		color: #a77c75;
+		background-color: #eadfde; 
 		border-radius: 9999px; 
 		transform: translateY(0.125rem); 
 	
