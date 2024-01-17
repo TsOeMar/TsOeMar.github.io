@@ -143,7 +143,7 @@ input, select, textarea {
 		margin: 0 0 1.25em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h2 a, h3 a, h4 a, h6 a {
 			color: inherit;
 			text-decoration: none;
 		}
@@ -169,11 +169,15 @@ input, select, textarea {
 		font-size: 1.1em;
 		line-height: 1.5em;
 		margin-bottom: 0.25em;
+		font-weight: 600;
 	}
-
+	
+	/*Skill Label*/
 	h5 {
-		font-size: 0.9em;
-		line-height: 1.5em;
+		color: #b2b2b2;
+		font-size: 1.1em;
+		font-weight: 400;
+		margin: 1.5em 0 0 0;
 	}
 
 	h6 {
@@ -1789,7 +1793,7 @@ input, select, textarea {
 	.tl-colortitle-study {
 		font-style: italic;
 		font-size: 1.5rem;
-		color: #a68d8d;
+		color: #b7a3ad;
 	}	
 
 	@media (min-width: 640px) {
@@ -1947,7 +1951,7 @@ input, select, textarea {
 		margin-bottom: 1rem; 
 		font-size: 0.9rem; 
 		font-weight: 600; 
-		color: #a68d8d;
+		color: #b7a3ad;
 		background-color: #ebe6e6; 
 		border-radius: 9999px; 
 		transform: translateY(0.125rem); 
@@ -3397,24 +3401,28 @@ input, select, textarea {
 	}
 
 	.progress {
-		border-radius:3px;
+		border-radius:4px;
 		overflow: visible;
 		background: #e6ecf3;
-		height:8px;
-		margin-top: 15px;
-		width: 85%;
-		margin-bottom: 5px;
+		height:12px;
+		margin-top: 8px;
+		width: 90%;
 	}
 
-	.progress-bar {
-		background-color: #49bf9d;
+	.progress-bar-green {
+		background-color: #79d0b7;
+		border-radius:4px;
 		float: left;
 		height: 100%;
 		-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
 		box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);       
-		transition: width 1.5s ease-in-out;
-		-webkit-transition: width 1.5s ease-in-out;
-		-ms-transition: width 1.5s ease-in-out;
-		-moz-transition: width 1.5s ease-in-out;
-		-o-transition: width 1.5s ease-in-out;
+	}
+
+	.progress-bar-other {
+		background-color: #c8b9c1;
+		border-radius:4px;
+		float: left;
+		height: 100%;
+		-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+		box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);       
 	}
