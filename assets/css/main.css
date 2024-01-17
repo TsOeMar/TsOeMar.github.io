@@ -3391,14 +3391,9 @@ input, select, textarea {
 		width: 10%;
 		color: #49bf9d;
 		position: relative;
+		font-size: 16px;
 		top: 6px;
 		left: 20px;
-	}
-
-	.barWrapper {
-		font-weight: 400;
-		font-size: 16px;
-		text-transform: uppercase;
 	}
 
 	.progress {
@@ -3408,14 +3403,13 @@ input, select, textarea {
 		height:8px;
 		margin-top: 15px;
 		width: 85%;
-		margin-bottom: 37px;
+		margin-bottom: 5px;
 	}
 
 	.progress-bar {
 		background-color: #49bf9d;
 		float: left;
 		height: 100%;
-		width: 70%;
 		-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
 		box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);       
 		transition: width 1.5s ease-in-out;
@@ -3423,38 +3417,4 @@ input, select, textarea {
 		-ms-transition: width 1.5s ease-in-out;
 		-moz-transition: width 1.5s ease-in-out;
 		-o-transition: width 1.5s ease-in-out;
-	}
-	
-/*	.progress-bar {
-		background-color: #49bf9d;
-		float: left;
-		height: 100%;
-		width: 10%; 
-		-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
-		box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
-		transition: width 2s ease-in-out; 
-	} */
-	
-
-	.tooltip{
-	position:relative;
-	float:right;
-	}
-	
-	.tooltip > .tooltip-inner {
-	background-color: transparent;
-	padding: 1px 5px;
-	color: #49bf9d;
-	font-weight: 500;
-	font-size: 12px;
-	border-radius: 0;
-	}
-
-	.popOver + .tooltip > .tooltip-arrow {
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-top: 6px solid #fff;
-	bottom: -1px;
-	transform: translateX(-50%);
-	margin-left: 0;
 	}
