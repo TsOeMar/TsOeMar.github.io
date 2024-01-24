@@ -3222,13 +3222,13 @@ Everthing added after this is not from the Strata Template
 	.skill-bar {
 		position: relative;
 		height: 40px;
-		background-color: #49bf9d; /* Example color, adjust as needed */
+		background-color: #49bf9d;
 		border-radius: 3px;
 	}
 
 	.skill-text {
 		position: absolute;
-		left: 10px; /* Adjust as needed */
+		left: 10px; 
 		top: 50%;
 		transform: translateY(-50%);
 		color: #ffff;
