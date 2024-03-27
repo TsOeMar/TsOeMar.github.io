@@ -2252,8 +2252,7 @@ input, select, textarea {
 			background: #fff;
 			color: inherit;
 		}
-
-		/*TsOeMar Toevoeging*/
+		
 		.wrapper.style4 {
 			-moz-animation: reveal-banner 1s 0.5s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.5s ease-in-out;
